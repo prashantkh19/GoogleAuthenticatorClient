@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Google Authenticator Client</string>
+    <string name="enter_valid_code">Enter Valid Code!</string>
+    <string name="verified">Verified</string>
+    <string name="failed">Failed</string>
+    <string name="register_successfully">Registered Successfully!</string>
+    <string name="incorrect_code">Incorrect Code!</string>
+    <string name="status_placeholder">STATUS</string>
+    <string name="setup_new_account">Setup New Account</string>
+    <string name="submit">Submit</string>
+    <string name="enter_verification_code">Enter Verification Code</string>
+    <string name="verfication_code_from_authenticator_app">Verfication Code from Authenticator app</string>
 </resources>

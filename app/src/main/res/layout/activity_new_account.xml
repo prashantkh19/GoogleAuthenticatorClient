@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".NewAccountActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/label"
@@ -23,7 +22,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
         android:gravity="center_horizontal"
-        android:id="@+id/key"
+        android:id="@+id/tv_key"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="---------------------"
@@ -33,7 +32,7 @@
     <TextView
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:layout_below="@id/key"
+        android:layout_below="@id/tv_key"
         android:id="@+id/label2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,7 +54,7 @@
             android:text="Verfication Code from Authenticator app"/>
 
         <EditText
-            android:id="@+id/input_code"
+            android:id="@+id/et_input_code"
             android:layout_marginTop="12dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,7 +63,7 @@
             />
 
         <Button
-            android:id="@+id/submit"
+            android:id="@+id/btn_submit"
             android:layout_marginTop="12dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
