@@ -15,7 +15,7 @@ class RepositoryModule(private val context: Context) {
     }
 
     @Provides
-    fun getRepository():Repository{
-        return Repository(PreferenceHelper(context))
+    fun getRepository(preferenceHelper: PreferenceHelper):Repository{
+        return Repository(preferenceHelper)
     }
 }
